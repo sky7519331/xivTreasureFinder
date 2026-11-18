@@ -1,7 +1,7 @@
 // 藏寶圖等級數據 (由高到低排序)
-// 注意：繁中版目前只到 7.0，7.0 以後的內容暫時隱藏
+// 藏寶圖資料目前支援至 7.3
 const GRADE_DATA = [
-    // { grade: "G18", itemId: 46185, name: "陳舊的卡岡圖亞革地圖", partySize: 8, expansion: "7.3" }, // 7.3 尚未有繁中翻譯
+    { grade: "G18", itemId: 46185, name: "陳舊的卡岡圖亞革地圖", partySize: 8, expansion: "7.3" },
     { grade: "G17", itemId: 43557, name: "陳舊的獰豹革地圖", partySize: 8, expansion: "7.0", gatheringLevel: 100, gatheringZoneIds: [4508, 4509, 4507] },
     { grade: "G16", itemId: 43556, name: "陳舊的銀狼革地圖", partySize: 1, expansion: "7.0", gatheringLevel: 100, gatheringZoneIds: [4508, 4509, 4507] },
     { grade: "G15", itemId: 39591, name: "陳舊的蛇牛革地圖", partySize: 8, expansion: "6.3", gatheringLevel: 90, gatheringZoneIds: [3713] },
